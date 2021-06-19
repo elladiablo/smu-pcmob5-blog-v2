@@ -27,6 +27,7 @@ export default function AccountScreen({ navigation }) {
         console.log(error.response.data);
       } else {
         console.log(error);
+        
       }
     }
   }
